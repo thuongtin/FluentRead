@@ -43,6 +43,34 @@ nghiệm đọc mượt mà như tiếng mẹ đẻ.
 | Edge        | [Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB/kakgmllfpjldjhcnkghpplmlbnmcoflp?hl=zh-CN)                                                                                               |
 | Firefox     | [Firefox Add-ons Store](https://addons.mozilla.org/zh-CN/firefox/addon/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB/)                                                                                                                                        |
 
+### Cài Bản Release (`Load unpacked`)
+
+#### 1) Tải bản phát hành
+
+1. Vào trang [Releases](https://github.com/thuongtin/FluentRead/releases).
+2. Tải file `.zip` cho Chrome/Edge (ví dụ: `c-mt-x.x.xx-chrome.zip`).
+3. Giải nén file zip ra một thư mục, bạn sẽ có thư mục chứa `manifest.json` (thường là `chrome-mv3`).
+
+#### 2) Load unpacked trên Chrome
+
+1. Mở `chrome://extensions`.
+2. Bật `Developer mode` (góc phải trên).
+3. Chọn `Load unpacked`.
+4. Trỏ đến thư mục đã giải nén có `manifest.json`.
+5. Nếu bạn đã cài bản Store, nên tắt hoặc gỡ bản cũ để tránh mở nhầm extension.
+
+#### 3) Load unpacked trên Edge
+
+1. Mở `edge://extensions`.
+2. Bật `Developer mode`.
+3. Chọn `Load unpacked`.
+4. Trỏ đến thư mục đã giải nén có `manifest.json`.
+
+#### 4) Cập nhật bản mới
+
+1. Tải release mới và giải nén đè vào thư mục cũ (hoặc thư mục mới).
+2. Vào trang Extensions và bấm `Reload` cho extension.
+
 ## 📖 Tài Liệu Hướng Dẫn
 
 Vui lòng truy cập
