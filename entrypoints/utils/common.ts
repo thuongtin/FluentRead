@@ -20,7 +20,8 @@ export function detectlang(origin: string): string {
     // Trả về mã ngôn ngữ tiêu chuẩn tương ứng
     switch (find) {
         case "cmn":
-            return "vi";
+        case "zho":
+            return "zh-Hans";
         case "eng":
             return "en";
         case "jpn":
